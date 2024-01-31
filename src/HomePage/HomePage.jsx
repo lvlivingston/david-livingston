@@ -9,12 +9,18 @@ export default function HomePage({ setUser }) {
 
   return (
     <main>
-      <div className="navigation">
+      <div className="nav-bar">
         <img
             src={logoImage}
             alt="Logo"
-            className="logo"
+            className="nav-logo"
         />
+        <div className="nav-text">
+            <ul>
+                <li>(256) 546-9300</li>
+                <li>davidlivingston@comcast.net</li>
+            </ul>
+        </div>
       </div>
       <div className="image-container">
         <div className='headline'>
