@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImage from '../images/placeholder-logo.png';
 import bannerImage from '../images/gadsden.jpeg';
 import headshotImage from '../images/headshot.jpeg';
 import './HomePage.css';
@@ -9,7 +10,11 @@ export default function HomePage({ setUser }) {
   return (
     <main>
       <div className="navigation">
-        This is the placeholder for the top navigation
+        <img
+            src={logoImage}
+            alt="Logo"
+            className="logo"
+        />
       </div>
       <div className="image-container">
         <div className='headline'>
