@@ -1,8 +1,10 @@
 .nav-bar {
     display: flex;
     flex-direction: row; 
+    margin-top: 20px;
     padding: 30px;
     align-items: center;
+
 }
 
 .nav-logo {
