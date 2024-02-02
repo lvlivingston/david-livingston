@@ -26,7 +26,7 @@ export default function HomePage({ setUser }) {
         <div className='headline'>
             Results Matter
         </div>
-        <hr className="separator" />
+        {/* <hr className="separator" /> */}
         <div className="headline-block">
             <ul>
                 <li>Divorce, Custody & Adoptions</li>
@@ -62,10 +62,32 @@ export default function HomePage({ setUser }) {
         </div>
       </div>
       <div className="body-will">
-        This is the placeholder for the black block with will & estate info
+        <div className='question'>
+            Did you know?
+        </div>
+        <div className="question-text">
+            <div>
+                Without a will, all your assets will go into probate for at least 6 months?
+            </div>
+            <div>
+                Avoid expensive legal fees, tax liability, and mental turmoil for your children. Prepare 3 items:
+            </div>
+            <ul>
+                <li>Will</li>
+                <li>Power of Attorney (POA)</li>
+                <li>Medical POA</li>
+                <li>Advanced Health Directive </li>
+            </ul>
+        </div>
       </div>
       <div className="body-landlord">
-        This is the placeholder for the white block with landlord info
+      <div className='question-white'>
+            Are you a landlord?
+        </div>
+        <div className="question-text-white">
+        David works with property owners in Etowah and surrounding counties to ensure a great relationship with tenants. 
+        From background checks to eviction work, he takes the hassle out of rentals
+        </div>
       </div>
       <div className="footer">
         <h2 className="footertext-white"> Office: (256) 546-9300</h2>

@@ -1,24 +1,41 @@
 .nav-bar {
     display: flex;
     flex-direction: row; 
-    margin-top: 20px;
     padding: 30px;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-between;
 
 }
 
 .nav-logo {
-    width: 50%;
+    width: 250px;
     height: auto;
 }
   
 .nav-text {
-    font-size: 14px;
+    font-size: 16px;
     text-align: right; 
+    font-family: 'Afacad', sans-serif;
 }
 
 .nav-text ul {
     list-style-type: none;
+    align-items: flex-end;
+    margin-bottom: -2px;
+}
+
+/* Media query for tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-text {
+        font-size: 20px; /* Font size for tablets */
+    }
+}
+
+/* Media query for desktops and laptops */
+@media (min-width: 1025px) {
+    .nav-text {
+        font-size: 24px; /* Font size for desktops and laptops */
+    }
 }
 
 .image-container {
@@ -50,6 +67,13 @@
     font-size: 6em;
     font-family: 'Afacad', sans-serif;
     font-weight: bold;
+}
+
+/* Media query for screens between 768px and 1075px wide */
+@media only screen and (min-width: 768px) and (max-width: 1075px) {
+    .headline {
+        font-size: 4em; /* Decrease font size to keep the words on the same line */
+    }
 }
 
 .headline-block {
@@ -92,6 +116,13 @@
     max-width: 200px; /* Adjust max width as needed */
 }
 
+/* Media query for screens between 945px and 768px wide */
+@media only screen and (min-width: 768px) and (max-width: 945px) {
+    .separator {
+        top: 22%%; /* Adjust the position to be in the middle */
+    }
+}
+
 .body-bio {
     display: flex;
     flex-direction: row; 
@@ -102,19 +133,59 @@
 .headshot {
     width: 80%;
     height: auto;
+    padding-right: 30px;
 }
   
 .bio-paragraph {
-    font-size: 14px;
+    font-size: 1em;
     text-align: left; 
+    font-family: 'Afacad', sans-serif;
 }
 
 .body-will {
     background-color: black;
     color: white;
+    padding: 30px;
+}
+
+.question {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Afacad', sans-serif;
+}
+
+.question-text {
+    font-family: 'Afacad', sans-serif;
+    font-size: 16px;
+    padding: 20px 0px 0px 0px;
+}
+
+.question-text ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.question-white {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Afacad', sans-serif;
 }
 
 .footer {
     background-color: black;
     color: white;
+    font-family: 'Afacad', sans-serif;
+    padding: 20px 0px;
+}
+
+.footertext-white {
+    padding: 0; /* Remove padding */
+    line-height: .5; /* Set line-height to 1 to remove space between lines */
+}
+
+.footertext-legal {
+    margin-top: 0; /* Remove top margin */
+    line-height: 1; /* Set line-height to 1 to remove space between lines */
 }
