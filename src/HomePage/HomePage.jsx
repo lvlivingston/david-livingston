@@ -26,7 +26,7 @@ export default function HomePage({ setUser }) {
         <div className='headline'>
             Results Matter
         </div>
-        {/* <hr className="separator" /> */}
+        <hr className="separator" />
         <div className="headline-block">
             <ul>
                 <li>Divorce, Custody & Adoptions</li>
