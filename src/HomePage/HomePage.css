@@ -161,7 +161,7 @@
     padding: 20px 0px 0px 0px;
 }
 
-.question-text ul {
+.question-text ul { 
     list-style-type: none;
     margin-left: -40px;
 }
@@ -173,11 +173,47 @@
     font-family: 'Afacad', sans-serif;
 }
 
+.question-text-white {
+    padding-right: 30px;
+}
+
+.body-landlord {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    font-family: 'Afacad', sans-serif;
+}
+
+.question-map-container {
+    flex: 0 0 70%; /* Take 70% of the available space */
+}
+
+.map-container {
+    flex: 0 0 30%; /* Take 30% of the available space */
+}
+
+.map-wrapper {
+    padding-right: 30px; /* Add space to the right side of the map */
+}
+
+.map-container iframe {
+    width: 100%; /* Make sure the map fills its container */
+    height: 100%;
+}
+
 .footer {
     background-color: black;
     color: white;
     font-family: 'Afacad', sans-serif;
     padding: 20px 0px;
+}
+
+.footertext-address {
+    padding: 0; /* Remove padding */
+    line-height: .5; /* Set line-height to 1 to remove space between lines */
+    font-weight: 100;
+    font-size: 16px;
 }
 
 .footertext-white {

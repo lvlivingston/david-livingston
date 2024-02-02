@@ -81,17 +81,34 @@ export default function HomePage({ setUser }) {
         </div>
       </div>
       <div className="body-landlord">
-      <div className='question-white'>
-            Are you a landlord?
+        <div className="question-map-container">
+            <div className='question-white'>
+                Are you a landlord?
+            </div>
+            <div className="question-text-white">
+                David works with property owners in Etowah and surrounding counties to ensure a great relationship with tenants. From background checks to eviction work, he takes the hassle out of rentals
+            </div>
         </div>
-        <div className="question-text-white">
-        David works with property owners in Etowah and surrounding counties to ensure a great relationship with tenants. 
-        From background checks to eviction work, he takes the hassle out of rentals
+        <div className="map-container">
+            <div className="map-wrapper">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13228.882092693264!2d-86.012381!3d34.01255!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888a3c1d614b4d47%3A0xebcad2a5793b6aaf!2sDavid%20Livingston%2C%20Attorney%20at%20Law!5e0!3m2!1sen!2sus!4v1706905078770!5m2!1sen!2sus"
+                    title="Google Map Location"
+                    width="600"
+                    height="450"
+                    style={{ border: "0" }}
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
         </div>
       </div>
       <div className="footer">
-        <h2 className="footertext-white"> Office: (256) 546-9300</h2>
-        <h2 className="footertext-white"> Fax: (256) 546-9304</h2>
+        <h2 className="footertext-address">247 South 8th Street&nbsp;&nbsp;&nbsp;Gadsden, AL 35901</h2>
+        <h2 className="footertext-address">P.O. Box 1621&nbsp;&nbsp;&nbsp;Gadsden, AL 35902</h2>
+        <h2 className="footertext-white">Office: (256) 546-9300</h2>
+        <h2 className="footertext-white">Fax: (256) 546-9304</h2>
         <h2 className="footertext-white">davidlivingston@comcast.net</h2>
         <p className="footertext-legal">Copyright © 2024 David Livingston - All Rights Reserved</p>
       </div>
