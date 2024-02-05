@@ -11,6 +11,12 @@
     width: 250px;
     height: auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .nav-logo {
+        width: 150px; /* Decrease the width of the logo for mobile devices */
+    }
+}
   
 .nav-text {
     font-size: 16px;
@@ -89,11 +95,11 @@
 
 @media only screen and (max-width: 768px) {
     .headline {
-        font-size: 3.1em;
+        font-size: 2.5em;
     }
 
     .headline-block {
-        font-size: 1.4em; 
+        font-size: 1.2em; 
         top: 60%;
     }
 }
@@ -142,6 +148,22 @@
     font-family: 'Afacad', sans-serif;
 }
 
+@media only screen and (max-width: 768px) {
+    .body-bio {
+        flex-direction: column; /* Change flex-direction to column */
+        align-items: center; /* Center items vertically */
+    }
+
+    .headshot {
+        order: -1; /* Move the headshotImage to the top */
+        margin-bottom: 20px; /* Add some margin between the headshot and the bio */
+    }
+
+    .bio-paragraph {
+        text-align: center; /* Center-align the text */
+    }
+}
+
 .body-will {
     background-color: black;
     color: white;
@@ -175,6 +197,7 @@
 
 .question-text-white {
     padding-right: 30px;
+    padding: 20px 0px 0px 0px;
 }
 
 .body-landlord {
@@ -191,6 +214,22 @@
 
 .map-container {
     flex: 0 0 30%; /* Take 30% of the available space */
+}
+
+@media only screen and (max-width: 768px) {
+    .body-landlord {
+        flex-direction: column; /* Change flex-direction to column */
+        align-items: center; /* Center items vertically */
+    }
+
+    .map-container {
+        order: -1; /* Move the map-container to the top */
+        margin-bottom: 20px; /* Add some margin between the map and the question */
+    }
+
+    .question-map-container {
+        text-align: center; /* Center-align the text */
+    }
 }
 
 .map-wrapper {
