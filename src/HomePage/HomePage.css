@@ -141,7 +141,16 @@
     height: auto;
     padding-right: 30px;
 }
-  
+
+@media only screen and (max-width: 768px) {
+    .headshot {
+        width: 80%; /* Adjust width for mobile devices */
+        margin-right: 0; /* Remove any right margin */
+        padding-right: 0; /* Remove any right padding */
+        margin-bottom: 20px; /* Add some margin to separate the image from the text */
+    }
+}
+
 .bio-paragraph {
     font-size: 1em;
     text-align: left; 
@@ -223,8 +232,12 @@
     }
 
     .map-container {
-        order: -1; /* Move the map-container to the top */
-        margin-bottom: 20px; /* Add some margin between the map and the question */
+        order: -1;
+        width: 100%; /* Ensure the map fills its container */
+        margin-right: 0; /* Remove any right margin */
+        padding-left: 30px;
+        padding-right: 0; /* Remove any right padding */
+        margin-bottom: 20px; /* Add some margin to separate the map from other elements */
     }
 
     .question-map-container {
