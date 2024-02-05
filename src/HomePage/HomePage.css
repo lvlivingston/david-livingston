@@ -14,7 +14,7 @@
 
 @media only screen and (max-width: 768px) {
     .nav-logo {
-        width: 150px; /* Decrease the width of the logo for mobile devices */
+        width: 100px; /* Decrease the width of the logo for mobile devices */
     }
 }
   
@@ -75,13 +75,6 @@
     font-weight: bold;
 }
 
-/* Media query for screens between 768px and 1075px wide */
-@media only screen and (min-width: 768px) and (max-width: 1075px) {
-    .headline {
-        font-size: 4em; /* Decrease font size to keep the words on the same line */
-    }
-}
-
 .headline-block {
     position: absolute;
     top: 50%;
@@ -91,6 +84,13 @@
     color: white;
     font-size: 2em;
     font-family: 'Afacad', sans-serif;
+}
+
+/* Media query for screens between 768px and 1075px wide */
+@media only screen and (min-width: 768px) and (max-width: 1075px) {
+    .headline {
+        font-size: 4em; /* Decrease font size to keep the words on the same line */
+    }
 }
 
 @media only screen and (max-width: 768px) {
