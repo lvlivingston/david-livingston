@@ -105,9 +105,11 @@ export default function HomePage({ setUser }) {
       <div className="footer">
         <h2 className="footertext-address">247 South 8th Street&nbsp;&nbsp;&nbsp;Gadsden, AL 35901</h2>
         <h2 className="footertext-address">P.O. Box 1621&nbsp;&nbsp;&nbsp;Gadsden, AL 35902</h2>
+        <br />
         <h2 className="footertext-white">Office: (256) 546-9300</h2>
         <h2 className="footertext-white">Fax: (256) 546-9304</h2>
         <h2 className="footertext-white">davidlivingston@comcast.net</h2>
+        <br />
         <p className="footertext-legal">Copyright © 2024 David Livingston - All Rights Reserved</p>
       </div>
     </main>
