@@ -159,7 +159,7 @@
 }
 
 .bio-paragraph {
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: left; 
     font-family: 'Afacad', sans-serif;
 }
@@ -177,6 +177,7 @@
 
     .bio-paragraph {
         text-align: center; /* Center-align the text */
+        font-size: 1.2em;
     }
 }
 
@@ -195,8 +196,15 @@
 
 .question-text {
     font-family: 'Afacad', sans-serif;
-    font-size: 16px;
+    font-size: 1.5em;
     padding: 20px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .question-text {
+        font-size: 1.2em;
+    }
+    
 }
 
 .question-text ul { 
@@ -214,6 +222,14 @@
 .question-text-white {
     padding-right: 30px;
     padding: 20px 0px 0px 0px;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+    .question-text-white {
+        font-size: 1.2em;
+    }
+    
 }
 
 .body-landlord {
