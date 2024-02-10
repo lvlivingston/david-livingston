@@ -67,8 +67,8 @@ export default function HomePage({ setUser }) {
         </div>
         <div className="question-text">
             <div>
-                Without a will, all your assets will go into probate for at least 6 months? 
-                Avoid expensive legal fees, tax liability, and mental turmoil for your children. Prepare 3 items:
+            Without a Will, Alabama law will determine who inherits your assets. Additionally your 
+            heirs will have to post a bond. Avoid confusion and expense. Have these four documents prepared:
             </div>
             <ul>
                 <li>Will</li>
