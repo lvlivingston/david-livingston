@@ -67,7 +67,7 @@ export default function HomePage({ setUser }) {
         </div>
         <div className="question-text">
             <div>
-            Without a Will, Alabama law will determine who inherits your assets. Additionally your 
+            Without a Will, Alabama law determines who inherits your assets. Additionally your 
             heirs will have to post a bond. Avoid confusion and expense. Have these four documents prepared:
             </div>
             <ul>
