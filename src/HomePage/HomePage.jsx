@@ -110,7 +110,7 @@ export default function HomePage({ setUser }) {
         <h2 className="footertext-white">Fax: (256) 546-9304</h2>
         <h2 className="footertext-white">davidlivingston@comcast.net</h2>
         <br />
-        <p className="footertext-legal">Copyright © 2024 David Livingston - All Rights Reserved</p>
+        <p className="footertext-legal">Copyright © 2025 David Livingston - All Rights Reserved</p>
       </div>
     </main>
   );
